@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1D03A1C1270BE0AB00E107EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03A1C0270BE0AB00E107EC /* main.swift */; };
+		1D03A1D1270BE6DF00E107EC /* UnifiedMachHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03A1D0270BE6DF00E107EC /* UnifiedMachHeader.swift */; };
+		1D03A1D5270BF72100E107EC /* UnifiedSegmentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03A1D4270BF72100E107EC /* UnifiedSegmentCommand.swift */; };
+		1D03A1D7270BF7D400E107EC /* String+BinaryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03A1D6270BF7D400E107EC /* String+BinaryString.swift */; };
+		1D421A9D270D279E0024A00B /* FatFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D421A9C270D279E0024A00B /* FatFile.swift */; };
+		1D421A9F270D30660024A00B /* BinaryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D421A9E270D30660024A00B /* BinaryFile.swift */; };
+		1D421AA5270E9D2F0024A00B /* Printing Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D421AA4270E9D2F0024A00B /* Printing Functions.swift */; };
+		1D421AAC270FDBA80024A00B /* GenerationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D421AAB270FDBA80024A00B /* GenerationManager.swift */; };
+		1D436A4D2711575C00ADA697 /* Capstone in Frameworks */ = {isa = PBXBuildFile; productRef = 1D436A4C2711575C00ADA697 /* Capstone */; };
+		1D49274927127A7A0054C411 /* Helper Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D49274827127A7A0054C411 /* Helper Functions.swift */; };
+		1D740950270BFD27000D141D /* UnifiedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74094F270BFD27000D141D /* UnifiedSection.swift */; };
+		1D740952270C010B000D141D /* MachOFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D740951270C010B000D141D /* MachOFile.swift */; };
+		1D740955270CE408000D141D /* Data+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D740954270CE408000D141D /* Data+additions.swift */; };
+		1D740958270D09C9000D141D /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 1D740957270D09C9000D141D /* ArgumentParser */; };
+		1DFE780F271533C800948765 /* Int+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE780E271533C800948765 /* Int+hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +39,19 @@
 /* Begin PBXFileReference section */
 		1D03A1BD270BE0AB00E107EC /* ctool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ctool; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D03A1C0270BE0AB00E107EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1D03A1D0270BE6DF00E107EC /* UnifiedMachHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedMachHeader.swift; sourceTree = "<group>"; };
+		1D03A1D4270BF72100E107EC /* UnifiedSegmentCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedSegmentCommand.swift; sourceTree = "<group>"; };
+		1D03A1D6270BF7D400E107EC /* String+BinaryString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BinaryString.swift"; sourceTree = "<group>"; };
+		1D421A9C270D279E0024A00B /* FatFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatFile.swift; sourceTree = "<group>"; };
+		1D421A9E270D30660024A00B /* BinaryFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryFile.swift; sourceTree = "<group>"; };
+		1D421AA4270E9D2F0024A00B /* Printing Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Printing Functions.swift"; sourceTree = "<group>"; };
+		1D421AAB270FDBA80024A00B /* GenerationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationManager.swift; sourceTree = "<group>"; };
+		1D436A4E271226B000ADA697 /* ctool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ctool.entitlements; sourceTree = "<group>"; };
+		1D49274827127A7A0054C411 /* Helper Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Functions.swift"; sourceTree = "<group>"; };
+		1D74094F270BFD27000D141D /* UnifiedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedSection.swift; sourceTree = "<group>"; };
+		1D740951270C010B000D141D /* MachOFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachOFile.swift; sourceTree = "<group>"; };
+		1D740954270CE408000D141D /* Data+additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+additions.swift"; sourceTree = "<group>"; };
+		1DFE780E271533C800948765 /* Int+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D740958270D09C9000D141D /* ArgumentParser in Frameworks */,
+				1D436A4D2711575C00ADA697 /* Capstone in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +86,54 @@
 		1D03A1BF270BE0AB00E107EC /* ctool */ = {
 			isa = PBXGroup;
 			children = (
+				1D436A4E271226B000ADA697 /* ctool.entitlements */,
+				1D421AAA270FDB6E0024A00B /* Generation */,
+				1D740953270CE3F4000D141D /* Utilities */,
+				1D03A1CE270BE67900E107EC /* MachO */,
 				1D03A1C0270BE0AB00E107EC /* main.swift */,
 			);
 			path = ctool;
+			sourceTree = "<group>";
+		};
+		1D03A1CE270BE67900E107EC /* MachO */ = {
+			isa = PBXGroup;
+			children = (
+				1D740951270C010B000D141D /* MachOFile.swift */,
+				1D03A1D0270BE6DF00E107EC /* UnifiedMachHeader.swift */,
+				1D03A1D4270BF72100E107EC /* UnifiedSegmentCommand.swift */,
+				1D74094F270BFD27000D141D /* UnifiedSection.swift */,
+				1D421A9C270D279E0024A00B /* FatFile.swift */,
+				1D421A9E270D30660024A00B /* BinaryFile.swift */,
+			);
+			path = MachO;
+			sourceTree = "<group>";
+		};
+		1D421AAA270FDB6E0024A00B /* Generation */ = {
+			isa = PBXGroup;
+			children = (
+				1D436A4F27124F9C00ADA697 /* Languages */,
+				1D421AAB270FDBA80024A00B /* GenerationManager.swift */,
+			);
+			path = Generation;
+			sourceTree = "<group>";
+		};
+		1D436A4F27124F9C00ADA697 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		1D740953270CE3F4000D141D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1D03A1D6270BF7D400E107EC /* String+BinaryString.swift */,
+				1D740954270CE408000D141D /* Data+additions.swift */,
+				1D421AA4270E9D2F0024A00B /* Printing Functions.swift */,
+				1D49274827127A7A0054C411 /* Helper Functions.swift */,
+				1DFE780E271533C800948765 /* Int+hex.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +152,10 @@
 			dependencies = (
 			);
 			name = ctool;
+			packageProductDependencies = (
+				1D740957270D09C9000D141D /* ArgumentParser */,
+				1D436A4C2711575C00ADA697 /* Capstone */,
+			);
 			productName = ctool;
 			productReference = 1D03A1BD270BE0AB00E107EC /* ctool */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +184,10 @@
 				Base,
 			);
 			mainGroup = 1D03A1B4270BE0AB00E107EC;
+			packageReferences = (
+				1D740956270D09C9000D141D /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				1D436A4B2711575C00ADA697 /* XCRemoteSwiftPackageReference "capstone-swift" */,
+			);
 			productRefGroup = 1D03A1BE270BE0AB00E107EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,6 +202,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFE780F271533C800948765 /* Int+hex.swift in Sources */,
+				1D03A1D5270BF72100E107EC /* UnifiedSegmentCommand.swift in Sources */,
+				1D421AAC270FDBA80024A00B /* GenerationManager.swift in Sources */,
+				1D421AA5270E9D2F0024A00B /* Printing Functions.swift in Sources */,
+				1D740952270C010B000D141D /* MachOFile.swift in Sources */,
+				1D03A1D1270BE6DF00E107EC /* UnifiedMachHeader.swift in Sources */,
+				1D421A9D270D279E0024A00B /* FatFile.swift in Sources */,
+				1D03A1D7270BF7D400E107EC /* String+BinaryString.swift in Sources */,
+				1D740955270CE408000D141D /* Data+additions.swift in Sources */,
+				1D740950270BFD27000D141D /* UnifiedSection.swift in Sources */,
+				1D49274927127A7A0054C411 /* Helper Functions.swift in Sources */,
+				1D421A9F270D30660024A00B /* BinaryFile.swift in Sources */,
 				1D03A1C1270BE0AB00E107EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +339,8 @@
 		1D03A1C5270BE0AB00E107EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ctool/ctool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7924VL9N7J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -256,6 +352,8 @@
 		1D03A1C6270BE0AB00E107EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ctool/ctool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7924VL9N7J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -286,6 +384,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D436A4B2711575C00ADA697 /* XCRemoteSwiftPackageReference "capstone-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/c0dine/capstone-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1D740956270D09C9000D141D /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D436A4C2711575C00ADA697 /* Capstone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D436A4B2711575C00ADA697 /* XCRemoteSwiftPackageReference "capstone-swift" */;
+			productName = Capstone;
+		};
+		1D740957270D09C9000D141D /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D740956270D09C9000D141D /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D03A1B5270BE0AB00E107EC /* Project object */;
 }
